@@ -1,0 +1,225 @@
+*{
+    font-family: "Asap Condensed", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    
+}
+.navbar{
+    background-color: black;
+    width: 100%;
+    height: 70px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    flex-wrap: wrap;
+}
+.list-navbar{
+    list-style: none;
+    color: white;
+    padding: 0;
+    margin: 0 20px 0 0;
+    display: flex;
+    align-self: center;
+    background-color: black;
+}
+.titulo-navbar{
+    font-size: 40px;
+    color: yellow;
+    width: 20%;
+    margin: 0 0 0 20px;
+    text-decoration: none;
+    display: flex;
+    align-self: center;
+    background-color: black;
+}
+.items-navbar a{
+    font-size: 15px;
+    text-decoration: none;
+    padding: 15px;
+    margin: 5px;
+    color: white;
+    border-bottom: 1px solid yellow;
+    background-color: black;
+}
+.presentacion{
+    padding: 30px;
+    margin: 120px;
+
+}
+.titulo{
+    font-size: 8rem;
+    color: yellow;
+    text-align: center; 
+    font-weight: 600;  
+}
+.slogan{
+    font-size: 5rem;
+    color: black;
+    text-decoration: none;
+    font-weight: 200;
+    border-top: 1px solid black;
+}
+.sub-titulos{
+    font-size: 3rem;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+    padding: 20px;
+    margin: 10px 0 100px 0;
+    border: 1px solid black;
+}
+.autos-destacados{
+    display: flex;
+    padding: 50px;
+    margin: 100px 5px 60px 5px;
+}
+h6{
+    font-size: 1rem;
+}
+.autos-destacados a{
+    text-decoration: none;
+    color: #b7b21c;
+    border-bottom: 1px solid black;
+}
+.auto-destacado-one img{
+    width: 350px;
+    height: 240px;
+    margin: 0 10px 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+}
+.auto-destacado-one ul{
+    list-style-type: square;
+}
+.auto-destacado-one{
+    padding: 10px;
+    margin:0 40px 40px 40px ;
+    border-right: 1px solid black;
+
+
+}
+.auto-destacado-two img{
+    width: 350px;
+    height: 240px;
+    margin: 0 10px 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+}
+.auto-destacado-two ul{
+    list-style-type: square;
+}
+.auto-destacado-two{
+    padding: 10px;
+    margin: 0 40px 40px 40px;
+    border-right: 1px solid black;
+}
+.auto-destacado-three img{
+    width: 350px;
+    height: 240px;
+    margin: 0 10px 5px 10px;
+    border: 1px solid transparent;
+    border-radius: 7px;
+}
+.auto-destacado-three ul{
+    list-style-type: square;
+}
+.auto-destacado-three{
+    padding: 10px;
+    margin: 0 40px 40px 40px;
+}
+.video-auto-destacado{
+    display: flex;
+    margin: 0 0 10px 20px;
+}
+.video-autos-destacados iframe{
+    height: 30rem;
+    width: 70rem;
+    margin: 10px;
+}
+.video-auto-destacado-list{
+    padding: 10px;
+    margin-left: 30px;
+    border-right: 1px solid black;
+}
+.marcas-destacadas h3{
+    font-size: 4rem;
+    width: 100%;
+}
+.marcas-destacadas img{
+    height: 10rem;
+    width: 10rem;
+}
+.distintas-secciones h4{
+    color: #575bd4;
+    font-size: 1.8rem;
+}
+.distintas-secciones img{
+    height: 10rem;
+    width: 17rem;
+}
+/* pages pickups,hatchbacks,sedan,suvs,hothatchs ↓*/
+
+h2{
+    color: #484de3;
+    font-size: 6rem;
+    font-weight: 500;
+    text-decoration: underline;
+    text-align: center;
+}
+.vehiculos h4{
+    font-size: 2.6rem;
+    color: black;
+    font-weight: 700;
+}
+.vehiculos img{
+    height: 17rem;
+    width: 29rem;
+}
+.vehiculos ul{
+    list-style-type: square;
+    font-size: 1.1rem;
+    line-height: 3;
+}
+.vehiculos a{
+    font-size: 1.4rem;
+    text-decoration:#b7b21c underline;
+}
+.vehiculos h3{
+    color: #484de3;
+    font-size: 5.2rem;
+    font-weight: 400;
+}
+footer button{
+    font-size: 2rem;
+}
+.container-grid{
+    display: grid;
+    grid-template-columns: 3,1fr;
+    grid-template-rows: 0,2fr 1fr 1fr 1fr ;
+    grid-template-areas: 
+    "header header header"
+    "main main main"
+    "marcas marcas marcas"
+    "sections sections sections"
+    "footer footer footer" ;
+}
+header{
+    grid-area: header;
+}
+main{
+    grid-area: main;
+}
+.marcas-destacadas{
+    grid-area: marcas;
+}
+.distintas-secciones{
+    grid-area: sections;
+}
+footer{
+    grid-area: footer;
+}
+
+
