@@ -1,0 +1,26 @@
+.container-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 90px 1fr 0,5fr 0,5fr 50px;
+    grid-template-areas: 
+    "header header header header"
+    "main main main main"
+    "marcas marcas marcas marcas"
+    "sections sections sections sections"
+    "footer footer footer footer" ;
+}
+header{
+    grid-area: header;
+}
+main{
+    grid-area: main;
+}
+.marcas-destacadas{
+    grid-area: marcas;
+}
+.distintas-secciones{
+    grid-area: sections;
+}
+footer{
+    grid-area: footer;
+}

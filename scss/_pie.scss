@@ -1,0 +1,29 @@
+
+footer{
+    background-color: #7d7f8d;
+
+    .list-footer{
+        background-color: #7d7f8d;
+        display: flex;
+        justify-content: space-around;
+        margin: 3px;
+
+        .items-footer{
+            background-color: #7d7f8d;
+            list-style: none;
+
+            .items-footer a{
+                text-decoration: none;
+                color: black;
+            }
+        }
+        .bi-twitter-x{
+            width: 25px;
+            height: 25px;
+        }
+        .bi-whatsapp{
+            width: 25px;
+            height: 25px;
+        }
+    }
+}

@@ -1,0 +1,44 @@
+.titulos-pages{
+    color: #b7b21c;
+    font-size: 6rem;
+    font-weight: 100;
+    text-align: center;
+    padding: 30px;
+    margin: 120px;
+    border-bottom: 1px solid black;
+}
+.vehiculos{
+    display: flex;
+    justify-content: space-between;
+
+    .items-vehiculos{
+        margin: 45px 20px 0 20px;
+        padding-left: 40px;
+        border-left: 1px solid black;
+
+        & h4{
+            font-size: 2.6rem;
+            color: black;
+            font-weight: 700;
+        }
+        & img{
+            height: 17rem;
+            width: 29rem;
+            border: 1px solid transparent;
+            border-radius: 7px;
+        }
+        & ul{
+            list-style-type: square;
+            font-size: 1.1rem;
+            line-height: 3;
+        }
+        & a{
+            font-size: 1.4rem;
+            text-decoration:#b7b21c underline;
+            color: black;
+        }
+        & a:hover{
+            color: #b7b21c;
+        }
+    }
+}
