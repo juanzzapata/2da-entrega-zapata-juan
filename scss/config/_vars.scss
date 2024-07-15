@@ -1,0 +1,18 @@
+$title-principal:"Asap Condensed", sans-serif;
+//colores
+$color-primary:#ffff00;
+$color-secundary:#7d7f8d;
+//M A P A S
+$my-font-size:(
+    xs: 1rem,
+    sm: 3rem,
+    ms: 5rem,
+    xl: 8rem,
+);
+//formato - talle
+
+@each $formato, $talle in $my-font-size{
+    .fz-#{$formato}{
+        font-size: $talle;
+    }
+}

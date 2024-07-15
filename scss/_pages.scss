@@ -22,10 +22,8 @@
             font-weight: 700;
         }
         & img{
-            height: 17rem;
-            width: 29rem;
-            border: 1px solid transparent;
-            border-radius: 7px;
+            @include sizes (29rem, 17rem);
+            @include bordes (1px solid transparent, 7px);
         }
         & ul{
             list-style-type: square;

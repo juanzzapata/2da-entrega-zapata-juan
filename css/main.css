@@ -1,3 +1,19 @@
+.fz-xs {
+  font-size: 1rem;
+}
+
+.fz-sm {
+  font-size: 3rem;
+}
+
+.fz-ms {
+  font-size: 5rem;
+}
+
+.fz-xl {
+  font-size: 8rem;
+}
+
 * {
   font-family: "Asap Condensed", sans-serif;
   margin: 0;
@@ -19,7 +35,7 @@
 }
 .navbar .titulo-navbar {
   font-size: 40px;
-  color: yellow;
+  color: #ffff00;
   width: 20%;
   margin: 0 0 0 20px;
   text-decoration: none;
@@ -34,11 +50,11 @@
   margin: 0 20px 0 0;
   display: flex;
   align-items: center;
-  background-color: black;
+  background-color: #000000;
   flex-wrap: wrap;
 }
 .navbar .items-navbar {
-  background-color: black;
+  background-color: #000000;
   margin: 0 15px 0 0;
 }
 .navbar .items-navbar a {
@@ -46,7 +62,7 @@
   text-decoration: none;
   padding: 15px;
   color: white;
-  border-bottom: 1px solid yellow;
+  border-bottom: 1px solid #ffff00;
   background-color: black;
 }
 .navbar .items-navbar a:hover {
@@ -54,14 +70,12 @@
 }
 
 .titulo {
-  font-size: 8rem;
   color: yellow;
   text-align: center;
   font-weight: 600;
 }
 
 .slogan {
-  font-size: 5rem;
   color: black;
   text-decoration: none;
   font-weight: 200;
@@ -70,7 +84,6 @@
 }
 
 .sub-titulos {
-  font-size: 3rem;
   font-weight: 400;
   text-align: center;
   color: black;
@@ -83,9 +96,6 @@
   display: flex;
   padding: 50px;
   margin: 100px 5px 60px 5px;
-}
-.autos-destacados h6 {
-  font-size: 1rem;
 }
 .autos-destacados .auto-destacado-one {
   padding: 10px;
@@ -140,8 +150,8 @@
   margin: 0 0 10px 20px;
 }
 .video-carrusel .video-auto-destacado .video-autos-destacados iframe {
-  height: 30rem;
   width: 70rem;
+  height: 30rem;
   margin: 10px;
 }
 .video-carrusel .video-auto-destacado .video-auto-destacado-list {
@@ -160,7 +170,6 @@
 }
 
 .marcas-destacadas h3 {
-  font-size: 3rem;
   font-weight: 400;
   text-align: center;
   color: black;
@@ -177,8 +186,8 @@
 }
 
 .marcas-destacadas img {
-  height: 120px;
   width: 120px;
+  height: 120px;
   margin: 10px 50px 20px 50px;
   border: 1px solid black;
   border-radius: 20px;
@@ -197,8 +206,8 @@
   text-align: center;
 }
 .distintas-secciones img {
-  height: 120px;
   width: 200px;
+  height: 120px;
   border: 1px solid transparent;
   border-radius: 20px;
 }
@@ -254,8 +263,8 @@ footer .list-footer .bi-whatsapp {
   font-weight: 700;
 }
 .vehiculos .items-vehiculos img {
-  height: 17rem;
   width: 29rem;
+  height: 17rem;
   border: 1px solid transparent;
   border-radius: 7px;
 }
@@ -340,8 +349,8 @@ footer {
     font-weight: 300;
   }
   .items-vehiculos img {
-    height: 12rem;
     width: 19rem;
+    height: 12rem;
     border: 1px solid transparent;
     border-radius: 7px;
   }
@@ -422,8 +431,8 @@ footer {
     padding: 20px 0 20px 0;
   }
   .marcas-destacadas img {
-    height: 80px;
     width: 80px;
+    height: 80px;
     margin: 5px 25px 10px 25px;
     border: 1px solid black;
     border-radius: 20px;
@@ -440,14 +449,8 @@ footer {
     padding-left: 1px;
   }
   .vehiculos .items-vehiculos img {
-    height: 12rem;
     width: 19rem;
-    border: 1px solid transparent;
-    border-radius: 7px;
-  }
-  .vehiculos .items-vehiculos img {
     height: 12rem;
-    width: 19rem;
     border: 1px solid transparent;
     border-radius: 7px;
   }

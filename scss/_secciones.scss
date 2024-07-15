@@ -12,9 +12,7 @@
     }
 
     & img{
-        height: 120px;
-        width: 200px;
-        border: 1px solid transparent;
-        border-radius: 20px;
+        @include sizes (200px, 120px);
+        @include bordes (1px solid transparent, 20px);
     }
 }

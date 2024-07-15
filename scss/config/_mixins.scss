@@ -1,0 +1,8 @@
+@mixin sizes ($width, $height) {
+    width: $width;
+    height: $height;
+}
+@mixin bordes ($border, $radius) {
+    border: $border;
+    border-radius: $radius;
+}

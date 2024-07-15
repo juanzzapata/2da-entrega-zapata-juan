@@ -46,10 +46,8 @@
     }
 
     .items-vehiculos img {
-        height: 12rem;
-        width: 19rem;
-        border: 1px solid transparent;
-        border-radius: 7px;
+        @include sizes (19rem, 12rem);
+        @include bordes (1px solid transparent, 7px);
     }
 
     .items-vehiculos ul {
@@ -115,11 +113,9 @@
             margin: 10px;
 
             & img {
-                width: 240px;
-                height: 170px;
+                @include sizes (240px, 170px);
                 margin: 0 10px 5px 10px;
-                border: 1px solid transparent;
-                border-radius: 7px;
+                @include bordes (1px solid transparent, 7px);
             }
         }
 
@@ -127,11 +123,9 @@
             margin: 10px;
 
             & img {
-                width: 240px;
-                height: 170px;
+                @include sizes (240px, 170px);
                 margin: 0 10px 5px 10px;
-                border: 1px solid transparent;
-                border-radius: 7px;
+                @include bordes (1px solid transparent, 7px);
             }
         }
 
@@ -145,11 +139,9 @@
         }
 
         & img {
-            height: 80px;
-            width: 80px;
+            @include sizes (80px, 80px);
             margin: 5px 25px 10px 25px;
-            border: 1px solid black;
-            border-radius: 20px;
+            @include bordes (1px solid black, 20px);
         }
     }
 
@@ -166,17 +158,8 @@
             padding-left: 1px;
 
             & img {
-                height: 12rem;
-                width: 19rem;
-                border: 1px solid transparent;
-                border-radius: 7px;
-            }
-
-            & img {
-                height: 12rem;
-                width: 19rem;
-                border: 1px solid transparent;
-                border-radius: 7px;
+                @include sizes (19rem, 12rem);
+                @include bordes (1px solid transparent, 7px);
             }
 
             & ul {

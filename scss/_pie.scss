@@ -18,12 +18,10 @@ footer{
             }
         }
         .bi-twitter-x{
-            width: 25px;
-            height: 25px;
+            @include sizes (25px, 25px);
         }
         .bi-whatsapp{
-            width: 25px;
-            height: 25px;
+            @include sizes (25px, 25px);
         }
     }
 }

@@ -1,11 +1,9 @@
 .titulo{
-    font-size: 8rem;
     color: yellow;
     text-align: center; 
     font-weight: 600;  
 }
 .slogan{
-    font-size: 5rem;
     color: black;
     text-decoration: none;
     font-weight: 200;
@@ -13,7 +11,6 @@
     text-align: center;
 }
 .sub-titulos{
-    font-size: 3rem;
     font-weight: 400;
     text-align: center;
     color: black;
@@ -26,21 +23,15 @@
     padding: 50px;
     margin: 100px 5px 60px 5px;
 
-    h6{
-        font-size: 1rem;
-    }
-
     .auto-destacado-one{
         padding: 10px;
         margin:0 40px 40px 40px ;
         border-right: 1px solid black;
 
         & img{
-            width: 350px;
-            height: 240px;
+            @include sizes (350px, 240px);
             margin: 0 10px 5px 10px;
-            border: 1px solid transparent;
-            border-radius: 7px;
+            @include bordes (1px solid transparent, 7px);
         }
 
         & ul{
@@ -53,11 +44,9 @@
         border-right: 1px solid black;
 
         & img{
-            width: 350px;
-            height: 240px;
+            @include sizes (350px, 240px);
             margin: 0 10px 5px 10px;
-            border: 1px solid transparent;
-            border-radius: 7px;
+            @include bordes (1px solid transparent, 7px);
         }
 
         ul{
@@ -70,11 +59,9 @@
         margin: 0 40px 40px 40px;
 
         & img{
-            width: 350px;
-            height: 240px;
+            @include sizes (350px, 240px);
             margin: 0 10px 5px 10px;
-            border: 1px solid transparent;
-            border-radius: 7px;
+            @include bordes (1px solid transparent, 7px);
         }
 
         & ul{
@@ -90,8 +77,7 @@
         margin: 0 0 10px 20px;
 
         .video-autos-destacados iframe{
-            height: 30rem;
-            width: 70rem;
+            @include sizes (70rem, 30rem);
             margin: 10px;
         }
 
@@ -107,7 +93,6 @@
     z-index: 0;
 
     .carousel-item{
-        width: 380px;
-        height: 300px;
+        @include sizes (380px, 300px);
     }
 }
