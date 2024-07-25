@@ -1,16 +1,25 @@
-.titulo{
-    color: yellow;
-    text-align: center; 
-    font-weight: 600;  
+.presentacion {
+    padding: 180px;
+    background-image: url("https://w.wallha.com/ws/7/bGO0P45D.jpg");
+    background-size: 100%;
+    background-position: 400px;
 }
-.slogan{
+
+.titulo {
+    font-size: 7rem;
+    color: #ffff00;
+    text-align: left;
+    font-weight: 400;
+}
+
+.slogan {
     color: black;
     text-decoration: none;
-    font-weight: 200;
-    border-top: 1px solid black;
-    text-align: center;
+    font-weight: 100;
+    text-align: left;
 }
-.sub-titulos{
+
+.sub-titulos {
     font-weight: 400;
     text-align: center;
     color: black;
@@ -18,81 +27,90 @@
     margin: 10px 0 100px 0;
     border: 1px solid black;
 }
-.autos-destacados{
+
+.autos-destacados {
     display: flex;
-    padding: 50px;
-    margin: 100px 5px 60px 5px;
+    padding: 50px 5px 60px 5px;
+    margin: 50px 0 0 0;
+    background-color: #fdf03d7c;
 
-    .auto-destacado-one{
-        padding: 10px;
-        margin:0 40px 40px 40px ;
-        border-right: 1px solid black;
 
-        & img{
-            @include sizes (350px, 240px);
-            margin: 0 10px 5px 10px;
-            @include bordes (1px solid transparent, 7px);
-        }
-
-        & ul{
-            list-style-type: square;
-        }
-    }
-    .auto-destacado-two{
+    .auto-destacado-one {
         padding: 10px;
         margin: 0 40px 40px 40px;
         border-right: 1px solid black;
 
-        & img{
+        & img {
             @include sizes (350px, 240px);
             margin: 0 10px 5px 10px;
             @include bordes (1px solid transparent, 7px);
         }
 
-        ul{
+        & ul {
             list-style-type: square;
         }
     }
 
-    .auto-destacado-three{
+    .auto-destacado-two {
         padding: 10px;
         margin: 0 40px 40px 40px;
+        border-right: 1px solid black;
 
-        & img{
+        & img {
             @include sizes (350px, 240px);
             margin: 0 10px 5px 10px;
             @include bordes (1px solid transparent, 7px);
         }
 
-        & ul{
+        ul {
+            list-style-type: square;
+        }
+    }
+
+    .auto-destacado-three {
+        padding: 10px;
+        margin: 0 40px 40px 40px;
+
+        & img {
+            @include sizes (350px, 240px);
+            margin: 0 10px 5px 10px;
+            @include bordes (1px solid transparent, 7px);
+        }
+
+        & ul {
             list-style-type: square;
         }
     }
 }
-.video-carrusel{
-    display: flex;
 
-    .video-auto-destacado{
+.video-carrusel {
+    display: flex;
+    background-color: #fdf03d7c;
+    padding: 40px;
+    margin-top: 50px;
+
+    .video-auto-destacado {
         display: flex;
         margin: 0 0 10px 20px;
 
-        .video-autos-destacados iframe{
+        .video-autos-destacados iframe {
             @include sizes (70rem, 30rem);
             margin: 10px;
         }
 
-        .video-auto-destacado-list{
+        .video-auto-destacado-list {
             padding: 10px;
             margin-left: 30px;
             border-right: 1px solid black;
         }
     }
 }
-.carousel{
+
+.carousel {
     padding: 0 100px 0 100px;
     z-index: 0;
 
-    .carousel-item{
+    .carousel-item {
         @include sizes (380px, 300px);
     }
 }

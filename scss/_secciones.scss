@@ -15,4 +15,11 @@
         @include sizes (200px, 120px);
         @include bordes (1px solid transparent, 20px);
     }
+    .secciones{
+        transition-duration: 1s;
+        transition-delay: 1s;
+    }
+    .secciones:hover{
+        transform: translateY(20px);
+    }
 }

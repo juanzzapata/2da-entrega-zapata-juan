@@ -1,9 +1,7 @@
 *{
-    font-family: "Asap Condensed", sans-serif;
+    font-family: "Comfortaa", sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #7d7f7d;
-    
 }
 .navbar{
     background-color: black;
@@ -29,7 +27,7 @@
 }
 .titulo-navbar{
     font-size: 40px;
-    color: yellow;
+    color: #ffff00;
     width: 20%;
     margin: 0 0 0 20px;
     text-decoration: none;
@@ -41,7 +39,7 @@
     font-size: 15px;
     text-decoration: none;
     padding: 15px;
-    color: white;
+    color: #ffffff;
     border-bottom: 1px solid yellow;
     background-color: black;
 }
@@ -49,27 +47,28 @@
     color: #b7b21c;
 }
 .items-navbar{
-    background-color: black;
+    background-color: #000000;
     margin: 0 15px 0 0;
 }
 .presentacion{
-    padding: 30px;
-    margin: 120px;
+    padding: 180px;
+    background-image: url("https://w.wallha.com/ws/7/bGO0P45D.jpg");
+    background-size: 100%;
+    background-position: 400px;
+    }
 
-}
 .titulo{
-    font-size: 8rem;
+    font-size: 7rem;
     color: #ffff00;
-    text-align: center; 
-    font-weight: 600;  
+    text-align: left; 
+    font-weight: 400;
 }
 .slogan{
-    font-size: 5rem;
+    font-size: 3rem;
     color: black;
     text-decoration: none;
-    font-weight: 200;
-    border-top: 1px solid #000000;
-    text-align: center;
+    font-weight: 100;
+    text-align: left;
 }
 .sub-titulos{
     font-size: 3rem;
@@ -82,8 +81,9 @@
 }
 .autos-destacados{
     display: flex;
-    padding: 50px;
-    margin: 100px 5px 60px 5px;
+    padding: 50px 5px 60px 5px;
+    margin: 50px 0 0 0;
+    background-color: #fdf03d7c;
 }
 h6{
     font-size: 1rem;
@@ -107,8 +107,6 @@ h6{
     padding: 10px;
     margin:0 40px 40px 40px ;
     border-right: 1px solid black;
-
-
 }
 .auto-destacado-two img{
     width: 350px;
@@ -155,6 +153,9 @@ h6{
 }
 .video-carrusel{
     display: flex;
+    background-color: #fdf03d7c;
+    padding: 40px;
+    margin-top: 30px;
 }
 .carousel-item{
     width: 380px;
@@ -204,6 +205,13 @@ h6{
     border: 1px solid transparent;
     border-radius: 20px;
 }
+.secciones{
+    transition-duration: 1s;
+    transition-delay: 1s;
+}
+.secciones:hover{
+    transform: translateY(20px);
+}
 .list-footer{
     background-color: #7d7f8d;
     display: flex;
@@ -236,13 +244,12 @@ footer{
 /* pages pickups,hatchbacks,sedan,suvs,hothatchs ↓*/
 
 .titulos-pages{
-    color: #b7b21c;
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: 100;
     text-align: center;
-    padding: 30px;
-    margin: 120px;
-    border-bottom: 1px solid black;
+    padding: 130px;
+    margin: 20px 0 20px 0;
+    background-color: #fdf03d7c;
 }
 .vehiculos{
     display: flex;
@@ -256,7 +263,8 @@ footer{
 .items-vehiculos h4{
     font-size: 2.6rem;
     color: black;
-    font-weight: 700;
+    font-weight: 500;
+    background-color: #7d7f8d7f;
 }
 .items-vehiculos img{
     height: 17rem;
@@ -324,12 +332,12 @@ footer{
    }
    .titulos-pages{
     color: #b7b21c;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 100;
-    text-align: center;
-    padding: 10px;
-    margin: 100px 10px 10px 10px;
-    border-bottom: 1px solid black;
+    text-align: start;
+    padding: 130px;
+    margin: 20px 0 20px 0;
+    background-color: #fdf03d7c;
 }
    .vehiculos{
     flex-direction: column;
