@@ -7,24 +7,26 @@
         display: none;
     }
 
-    .list-navbar {
-        display: none;
+    .navbar{
+        .list-navbar{
+            display: none;
+        }
     }
 
     .distintas-secciones {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-top: 140px;
+        margin-top: 20px;
     }
 
     .titulos-pages{
         color: #b7b21c;
-        font-size: 30px;
+        font-size: 1.5rem;
         font-weight: 100;
-        text-align: start;
-        padding: 130px;
-        margin: 20px 0 20px 0;
+        text-align: center;
+        padding: 20px 0;
+        margin: 90px 0 ;
         background-color: #fdf03d7c;
     }
 
@@ -35,42 +37,49 @@
     }
 
     .items-vehiculos {
-        margin: 20px 1px 0 1px;
-        padding-left: 1px;
+        margin: 10px ;
+        padding: 0;
     }
 
     .items-vehiculos h4 {
-        font-size: 20px;
-        color: black;
-        font-weight: 300;
+        font-size: 1.2rem;
+        color: #000000;
+        font-weight: 100;
+        text-align: center;
+        padding: 10px 0;
+        margin: 20px 0;
+    
     }
 
     .items-vehiculos img {
-        @include sizes (19rem, 12rem);
+        max-width: 100%;
+        height: auto;
         @include bordes (1px solid transparent, 7px);
     }
 
     .items-vehiculos ul {
         list-style-type: none;
-        font-size: 1.1rem;
-        line-height: 3;
+        font-size: 1rem;
+        line-height: 1.5;
     }
 
     .items-vehiculos a {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         text-decoration: #b7b21c underline;
         color: black;
     }
 }
 
+
 @media only screen and (min-width: 501px) and (max-width: 960px) {
     .presentacion {
         padding: 30px;
-        margin: 100px 0 100px 0;
+        margin: 50px 0 50px 0;
+        background-size: auto;
 
         .titulo {
-            font-size: 7rem;
-            color: yellow;
+            font-size: 4rem;
+            color: #ffff00;
             text-align: center;
             font-weight: 600;
             margin-left: 0;
@@ -83,12 +92,12 @@
     }
 
     .sub-titulos {
-        font-size: 3rem;
+        font-size: 2rem;
         font-weight: 400;
         text-align: center;
         color: black;
-        padding: 20px 0 20px 0;
-        margin: 10px 0 100px 0;
+        padding: 10px 0 10px 0;
+        margin: 10px 0 50px 0;
         border: 1px solid black;
     }
 
@@ -101,9 +110,10 @@
     }
 
     .autos-destacados {
+        display: flex;
         justify-content: center;
-        padding: 50px 0 50px 0;
-        margin: 5pa 0 5px 0;
+        padding: 30px 0 30px 0;
+        margin: 5px 0 5px 0;
 
         .auto-destacado-three {
             display: none;
@@ -135,12 +145,12 @@
         display: none;
 
         & h3 {
-            padding: 20px 0 20px 0;
+            padding: 10px 0 10px 0;
         }
 
         & img {
             @include sizes (80px, 80px);
-            margin: 5px 25px 10px 25px;
+            margin: 5px 15px 10px 15px;
             @include bordes (1px solid black, 20px);
         }
     }
@@ -151,25 +161,27 @@
 
     .vehiculos {
         display: flex;
-        justify-content: space-between;
+        flex-wrap: wrap;
+        justify-content: space-around;
 
         .items-vehiculos {
             margin: 20px 7px 0 7px;
             padding-left: 1px;
 
             & img {
-                @include sizes (19rem, 12rem);
+                max-width: 100%;
+                height: auto;
                 @include bordes (1px solid transparent, 7px);
             }
 
             & ul {
                 list-style-type: none;
-                font-size: 1.1rem;
-                line-height: 3;
+                font-size: 1rem;
+                line-height: 1.5;
             }
 
             & a {
-                font-size: 1.4rem;
+                font-size: 1.2rem;
                 text-decoration: #b7b21c underline;
                 color: black;
             }
